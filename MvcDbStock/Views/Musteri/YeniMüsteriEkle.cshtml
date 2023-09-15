@@ -1,0 +1,26 @@
+﻿@model MvcDbStock.Models.Entity.TblMüsteri
+@{
+    ViewBag.Title = "YeniMüsteriEkle";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<h2>Yeni Müsteri Ekleme Sayfası</h2>
+
+<form method="post">
+    <div>
+        <label>Müşteri Ad</label>
+
+        @Html.TextBoxFor(x => x.MÜSTERIAD, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.MÜSTERIAD, "", new { @style = "color:red" })
+    </div>
+    <div>
+        <label>Müşteri Soyad</label>
+        <input type="text" class="form-control" name="MUSTERISOYAD" />
+        <button class="btn btn-info" id="btn1">Yeni Müşteri Ekleme</button>
+    </div>
+    <script>
+        $('#btn1').click(function () {
+            alert("Müşteri Ekleme İşlemi Yapıldı")
+        })
+    </script>
+</form>

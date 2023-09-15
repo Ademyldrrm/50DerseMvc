@@ -1,0 +1,24 @@
+﻿@model MvcDbStock.Models.Entity.TblKategori
+@{
+    ViewBag.Title = "KategoriGetir";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<h2>Kategori Getir Sayfası</h2>
+
+@using (Html.BeginForm("Guncelle", "Kategori", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(x => x.KATEGORID)
+        @Html.TextBoxFor(x => x.KATEGORID, new { @class = "form-control" })
+        <br />
+        @Html.LabelFor(x => x.KATEGORİAD)
+        @Html.TextBoxFor(x => x.KATEGORİAD, new { @class = "form-control" })
+        <br />
+
+        <button class="btn btn-primary">Kategori Güncelle</button>
+
+
+    </div>
+}
+

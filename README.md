@@ -1,28 +1,66 @@
 # 50DerseMvc
-Projem, bir MVC (Model-View-Controller) mimarisine dayalı bir web uygulamasıdır. Ürün ve müşteri yönetimi gibi temel işlevselliğe sahiptir ve ayrıca satış işlemleri için bir popup penceresi sunar. Ayrıca, kullanıcıların ürünleri ve müşterileri aramasını sağlayan bir arama çubuğu da bulunmaktadır ve sayfalama işlemi olarak hem Jquery hemde paging işlemi yapılmıştır.
+
+50DerseMvc, bir MVC (Model-View-Controller) mimarisine dayalı bir web uygulamasıdır ve ürün, müşteri ve kategori yönetimi gibi temel işlevselliğe sahiptir. Ayrıca, satış işlemleri için bir popup penceresi sunar, kullanıcıların ürünleri ve müşterileri aramasını sağlayan bir arama çubuğu içerir ve sayfalama işlemi için jQuery ve paging kullanır.
 
 ## Teknolojiler
+
+Proje aşağıdaki teknolojileri içerir:
+
 - ASP.NET MVC
 - Db First
 - Entity Framework
 - SQL Server
-- Html
-- css
-- bootstrap
+- HTML
+- CSS
+- Bootstrap
+- jQuery
+- DataTable
 - Paging
 - Alert
-- Jquary
-- Datatable
-- 
+
 ## Özellikler
 
-- **Ürün Yönetimi:** Bu uygulama, kullanıcıların ürünler eklemesine, güncellemesine ve silmesine olanak tanır. Her ürün için ad, fiyat ve stok miktarı gibi gerekli bilgileri girebilirsiniz.
-- 
-- - **Kategori Yönetimi:** Bu uygulama, kullanıcıların kategori eklemesine, güncellemesine ve silmesine olanak tanır. Her kategori için ad,  gibi gerekli bilgileri girebilirsiniz ve sayfalama işlemi paging işlemini de kullanabilirsiniz.
+Projenin temel özellikleri şunlardır:
 
-- **Müşteri Yönetimi:** Ayrıca, müşterilerin eklenmesi, güncellenmesi ve silinmesi işlevselliği de bulunmaktadır. Müşteri bilgilerini düzenleyebilir ve güncelleyebilirsiniz.
+### Ürün Yönetimi
 
-- **Satış Sayfası:** Projede, satış işlemleri için özel bir popup penceresi bulunmaktadır. Kullanıcılar, bu popup kullanarak satış işlemlerini kaydedebilirler.
+- **Ürün Ekleme:** Yeni ürünleri sisteme eklemek için kullanabilirsiniz. Her ürün için ad, fiyat ve stok miktarı gibi gerekli bilgileri girebilirsiniz.
+
+- **Ürün Güncelleme:** Mevcut ürünlerin bilgilerini güncellemek için kullanabilirsiniz.
+
+- **Ürün Silme:** Sistemden ürünleri silmek için kullanabilirsiniz.
+
+- **Ürün Listeleme:** Tüm ürünleri görüntülemek için kullanabilirsiniz.
+
+- **Ürün Arama:** Ürünleri adına veya diğer kriterlere göre aramak için kullanabilirsiniz.
+
+### Kategori Yönetimi
+
+- **Kategori Ekleme:** Yeni kategorileri sisteme eklemek için kullanabilirsiniz. Her kategori için ad gibi gerekli bilgileri girebilirsiniz.
+
+- **Kategori Güncelleme:** Mevcut kategorilerin bilgilerini güncellemek için kullanabilirsiniz.
+
+- **Kategori Silme:** Sistemden kategorileri silmek için kullanabilirsiniz.
+
+- **Kategori Listeleme:** Tüm kategorileri görüntülemek için kullanabilirsiniz.
+
+- **Kategori Arama:** Kategorileri adına veya diğer kriterlere göre aramak için kullanabilirsiniz.
+
+### Müşteri Yönetimi
+
+- **Müşteri Ekleme:** Yeni müşterileri sisteme eklemek için kullanabilirsiniz.
+
+- **Müşteri Güncelleme:** Mevcut müşterilerin bilgilerini güncellemek için kullanabilirsiniz.
+
+- **Müşteri Silme:** Sistemden müşterileri silmek için kullanabilirsiniz.
+
+- **Müşteri Listeleme:** Tüm müşterileri görüntülemek için kullanabilirsiniz.
+
+- **Müşteri Arama:** Müşterileri adına veya diğer kriterlere göre aramak için kullanabilirsiniz.
+
+### Satış İşlemleri
+
+- **Satış Yapma:** Satış işlemlerini kaydetmek için kullanabilirsiniz.
 ## Ekran Görüntüleri
 
 ![Ekran görüntüsü 2023-09-15 201538](https://github.com/Ademyldrrm/50DerseMvc/assets/92265631/105e0817-c649-48bd-b393-1852be0caa0a)

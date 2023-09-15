@@ -70,5 +70,11 @@ Projenin temel özellikleri şunlardır:
 ![Ekran görüntüsü 2023-09-15 201323](https://github.com/Ademyldrrm/50DerseMvc/assets/92265631/5041aac8-dd7e-4788-8193-99c819443e0a)
 ![Ekran görüntüsü 2023-09-15 201305](https://github.com/Ademyldrrm/50DerseMvc/assets/92265631/02880352-3f5c-4d9a-a93b-94a70a3ab7ae)
 ![Ekran görüntüsü 2023-09-15 201233](https://github.com/Ademyldrrm/50DerseMvc/assets/92265631/aa307d55-a1ed-4426-a7cf-61f1d85d7ebe)
+## Prpjenin Amacı
+50DerseMvc, bir web tabanlı uygulama geliştirmeniz için kullanabileceğiniz bir şablondur. Bu projenin amacı, temel ürün, müşteri ve kategori yönetimi işlevlerini içeren bir MVC uygulaması oluşturmaktır. Ayrıca, satış işlemleri kaydetmek ve bu işlemleri yönetmek için kullanabileceğiniz bir arayüz sağlar.
+
+Bu projenin temel özellikleri, ürünlerin, müşterilerin ve kategorilerin eklenmesi, güncellenmesi ve silinmesi ile ilgilidir. Ayrıca, bu bilgilere kolayca erişim sağlamak için arama ve listeleme işlevselliği sunar. Satış işlemleri de kaydedilebilir ve yönetilebilir.
+
+Bu proje, ASP.NET MVC, Entity Framework gibi teknolojileri kullanarak web tabanlı uygulama geliştirmeye başlamak isteyen geliştiricilere rehberlik etmek amacıyla oluşturulmuştur. Projeyi klonlayarak veya inceleyerek, web uygulamaları geliştirmeye başlamak için temel bir yapı oluşturabilir ve bu temeli daha fazla özelleştirebilirsiniz.
 
 
